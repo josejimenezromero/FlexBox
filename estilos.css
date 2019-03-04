@@ -1,0 +1,21 @@
+#main {
+    background-color: #5d5d5a;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+.article {
+    font-family: 'Roboto' ,sans-serif;
+    background-color: #ffa45c;
+    color: black;
+    border-radius: 25px;
+}
+.article2 {
+   font-family: 'Roboto' ,sans-serif;
+    background-color: #ffcdab;
+    color: black;
+    border-radius: 25px;
+}
