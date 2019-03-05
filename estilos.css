@@ -1,4 +1,4 @@
-#main {
+/*#titulo {
     background-color: #5d5d5a;
     text-align: center;
     color: white;
@@ -6,16 +6,64 @@
     display: flex;
     flex-flow: wrap;
     
+    
 }
 .article {
     font-family: 'Roboto' ,sans-serif;
     background-color: #ffa45c;
     color: black;
     border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
 .article2 {
    font-family: 'Roboto' ,sans-serif;
     background-color: #ffcdab;
     color: black;
     border-radius: 25px;
+}
+*/
+
+#titulo {
+    background-color: #5d5d5a;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-flow: wrap;
+}
+
+
+#intelcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background-color: #5d5d5a;
+    font-family: 'Roboto', sans-serif;
+}
+
+.article {
+    background-color: #ffa45c;
+    width: 30%;
+    margin-block-start: 1%;
+    margin-block-end: 1%;
+    border-radius: 4% 25%;
+}
+#amdcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    background-color: #5d5d5a;
+    font-family: 'Roboto', sans-serif;
+}
+.article2 {
+    background-color: #ffcdab;
+    width: 30%;
+    margin-block-start: 1%;
+    margin-block-end: 1%;
+    border-radius: 4% 25%;
 }
